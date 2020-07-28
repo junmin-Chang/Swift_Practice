@@ -18,7 +18,7 @@
 
 /* Begin PBXFileReference section */
 		220971BE24D00CCE00FAD138 /* loveimage@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "loveimage@2x.jpg"; path = "../../Downloads/loveimage@2x.jpg"; sourceTree = "<group>"; };
-		22299D9E24CEB10800EAD6F6 /* 유진과준민.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "유진과준민.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22299D9E24CEB10800EAD6F6 /* 장준민이 만든 앱.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "장준민이 만든 앱.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22299DA124CEB10800EAD6F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22299DA324CEB10800EAD6F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		22299DA524CEB10800EAD6F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		22299D9F24CEB10800EAD6F6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				22299D9E24CEB10800EAD6F6 /* 유진과준민.app */,
+				22299D9E24CEB10800EAD6F6 /* 장준민이 만든 앱.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,7 +87,7 @@
 			);
 			name = MyAlbum;
 			productName = MyAlbum;
-			productReference = 22299D9E24CEB10800EAD6F6 /* 유진과준민.app */;
+			productReference = 22299D9E24CEB10800EAD6F6 /* 장준민이 만든 앱.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -296,7 +296,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kr.junminchang.MyAlbum;
-				PRODUCT_NAME = "유진과준민";
+				PRODUCT_NAME = "장준민이 만든 앱";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -314,7 +314,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kr.junminchang.MyAlbum;
-				PRODUCT_NAME = "유진과준민";
+				PRODUCT_NAME = "장준민이 만든 앱";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
