@@ -10,11 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+
+
     var currentValue = 0
     
+    @IBOutlet weak var priceLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    
+       
         
         
     }
@@ -22,27 +26,25 @@ class ViewController: UIViewController {
     
     @IBAction func hello(_ sender: Any) {
         
-        
-        
-        let message = "가격은 ₩\(currentValue) 입니다"
-        
-        
-        let Alert = UIAlertController(title: "hello", message: message, preferredStyle: .alert)
-        
-        
-        
     
-        let Action = UIAlertAction(title: "OK", style: .default, handler: nil)
+    
+      refresh()
         
-        Alert.addAction(Action)
-        
-        present(Alert, animated: true, completion: nil)
-        
-        let randomPrice = arc4random_uniform(10000) + 1
-        
-        currentValue = Int(randomPrice)
     }
+
     
     
+    func refresh() {
+        
+        let randomPrice = arc4random_uniform(4) + 1
+               
+               currentValue = Int(randomPrice)
+               
+        priceLabel.text = String(currentValue)
+        
+    
+              
+        
+    }
 }
 

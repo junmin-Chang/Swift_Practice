@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		220971BF24D00CCE00FAD138 /* loveimage@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 220971BE24D00CCE00FAD138 /* loveimage@2x.jpg */; };
 		22299DA224CEB10800EAD6F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22299DA124CEB10800EAD6F6 /* AppDelegate.swift */; };
 		22299DA424CEB10800EAD6F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22299DA324CEB10800EAD6F6 /* SceneDelegate.swift */; };
 		22299DA624CEB10800EAD6F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22299DA524CEB10800EAD6F6 /* ViewController.swift */; };
@@ -16,7 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		22299D9E24CEB10800EAD6F6 /* MyAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		220971BE24D00CCE00FAD138 /* loveimage@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "loveimage@2x.jpg"; path = "../../Downloads/loveimage@2x.jpg"; sourceTree = "<group>"; };
+		22299D9E24CEB10800EAD6F6 /* 유진과준민.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "유진과준민.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22299DA124CEB10800EAD6F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22299DA324CEB10800EAD6F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		22299DA524CEB10800EAD6F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +50,7 @@
 		22299D9F24CEB10800EAD6F6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				22299D9E24CEB10800EAD6F6 /* MyAlbum.app */,
+				22299D9E24CEB10800EAD6F6 /* 유진과준민.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +65,7 @@
 				22299DAA24CEB10A00EAD6F6 /* Assets.xcassets */,
 				22299DAC24CEB10A00EAD6F6 /* LaunchScreen.storyboard */,
 				22299DAF24CEB10A00EAD6F6 /* Info.plist */,
+				220971BE24D00CCE00FAD138 /* loveimage@2x.jpg */,
 			);
 			path = MyAlbum;
 			sourceTree = "<group>";
@@ -84,7 +87,7 @@
 			);
 			name = MyAlbum;
 			productName = MyAlbum;
-			productReference = 22299D9E24CEB10800EAD6F6 /* MyAlbum.app */;
+			productReference = 22299D9E24CEB10800EAD6F6 /* 유진과준민.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -127,6 +130,7 @@
 			files = (
 				22299DAE24CEB10A00EAD6F6 /* LaunchScreen.storyboard in Resources */,
 				22299DAB24CEB10A00EAD6F6 /* Assets.xcassets in Resources */,
+				220971BF24D00CCE00FAD138 /* loveimage@2x.jpg in Resources */,
 				22299DA924CEB10800EAD6F6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +296,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kr.junminchang.MyAlbum;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "유진과준민";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -310,7 +314,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kr.junminchang.MyAlbum;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "유진과준민";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
